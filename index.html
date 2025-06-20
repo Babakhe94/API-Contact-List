@@ -13,6 +13,7 @@
                 <p>Manage your contacts with our simple API powered app.</p>
             </div>
 
+            <div id="message" style="margin: 10px 0; color: #d9534f;"></div>
             <div class="content">
                 <!--API Setup page -->
                 <div id="setupPage" class="page active">
@@ -41,7 +42,7 @@
                         </div>
                     </div>
 
-                    <div id="contactsList">
+                    <div id="contactsList" aria-live="polite">
                         <div class="loading">Loading contacts...</div>
                     </div>
                 </div>
