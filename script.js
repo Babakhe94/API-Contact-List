@@ -143,6 +143,7 @@ function addContact(event) {
         .then(function (data){
             if (data == "1") {
                 alert("Contact added successfully!");
+                document.getElementById('message').textContent = "Contact added successfully!";
                 showContacts();
                 getContacts();
             } else {
